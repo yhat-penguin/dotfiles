@@ -1,0 +1,157 @@
+[ai]
+allow_provider_config = false
+enabled = false
+
+[ai.custom_providers]
+
+[ai.models]
+custom_models = []
+displayed_models = []
+
+[completion]
+activate_on_typing = true
+auto_close_pairs = false
+copilot = false
+signature_hint_on_typing = false
+
+[diagnostics]
+enabled = true
+sql_linter = true
+
+[display]
+cell_output = "below"
+code_editor_font_size = 16
+code_lens = true
+dataframes = "rich"
+default_table_max_columns = 50
+default_table_page_size = 20
+default_width = "medium"
+reference_highlighting = true
+theme = "dark"
+
+[formatting]
+line_length = 88
+
+[keymap]
+destructive_delete = true
+preset = "vim"
+
+[keymap.overrides]
+# "cell.addColumnBreakpoint" = "Ctrl-Shift-3"
+"cell.aiCompletion" = "Ctrl-Shift-y"
+# "cell.cellActions" = "Alt-p"
+"cell.complete" = "Ctrl-Space"
+# "cell.copyLineDown" = "Alt-Shift-ArrowDown"
+# "cell.copyLineUp" = "Alt-Shift-ArrowUp"
+"cell.createAbove" = "Ctrl-Alt-Shift-o"
+"cell.createBelow" = "Ctrl-Alt-o"
+"cell.delete" = "Ctrl-Alt-Shift-d"
+"cell.findAndReplace" = "Ctrl-Alt-f"
+"cell.focusDown" = "Ctrl-j"
+"cell.focusUp" = "Ctrl-k"
+"cell.fold" = "Ctrl-Shift-["
+"cell.foldAll" = "Ctrl-Alt-["
+# "cell.format" = "Alt-Shift-f"
+"cell.goToDefinition" = "F12"
+"cell.hideCode" = "Ctrl-Alt-h"
+"cell.moveDown" = "Ctrl-Alt-j"
+# "cell.moveLeft" = "Alt-h"
+# "cell.moveRight" = "Alt-l"
+"cell.moveUp" = "Ctrl-Alt-k"
+"cell.redo" = "Ctrl-r"
+"cell.renameSymbol" = "F2"
+"cell.run" = "Ctrl-Enter"
+"cell.runAndNewAbove" = "Ctrl-Shift-Enter"
+"cell.runAndNewBelow" = "Shift-Enter"
+"cell.selectNextOccurrence" = "Alt-d"
+"cell.sendToBottom" = "Ctrl-Shift-2"
+"cell.sendToTop" = "Ctrl-Shift-1"
+"cell.signatureHelp" = "Ctrl-Shift-k"
+"cell.splitCell" = "Ctrl-Shift-\""
+"cell.toggleBlockComment" = "Alt-Shift-a"
+"cell.toggleComment" = "Alt-/"
+"cell.undo" = "u"
+"cell.unfold" = "Ctrl-Shift-]"
+"cell.unfoldAll" = "Ctrl-Alt-]"
+"cell.viewAsMarkdown" = "Ctrl-Shift-m"
+"cell.viewAsSQL" = "Ctrl-Shift-l"
+"command.vimEnterCommandMode" = "Ctrl-;"
+"completion.moveDown" = "Ctrl-n"
+"completion.moveUp" = "Ctrl-p"
+"global.collapseAllSections" = "Ctrl-Shift-|"
+"global.commandPalette" = "Ctrl-Shift-:"
+"global.expandAllSections" = "Ctrl-Shift-?"
+"global.focusBottom" = "Ctrl-Shift-g"
+"global.focusTop" = "Ctrl-Shift-f"
+"global.foldCode" = "Ctrl-Shift-4"
+"global.formatAll" = "Ctrl-Shift-b"
+"global.hideCode" = "Ctrl-."
+"global.interrupt" = "Ctrl-Shift-c"
+"global.runAll" = "Ctrl-Shift-a"
+"global.runStale" = "Ctrl-Shift-r"
+"global.save" = "Ctrl-s"
+"global.showHelp" = "Ctrl-Shift-h"
+"global.toggleLanguage" = "F4"
+"global.toggleMinimap" = "Ctrl-Shift-6"
+"global.togglePanel" = "Ctrl-Shift-x"
+"global.toggleSidebar" = "Ctrl-Shift-e"
+"global.toggleTerminal" = "Ctrl-/"
+"global.unfoldCode" = "Ctrl-Shift-5"
+"markdown.blockquote" = "Ctrl-Shift-9"
+"markdown.bold" = "Ctrl-b"
+"markdown.code" = "Ctrl-Shift-0"
+"markdown.italic" = "Ctrl-i"
+"markdown.link" = "Ctrl-Shift-u"
+"markdown.orderedList" = "Ctrl-Shift-7"
+"markdown.unorderedList" = "Ctrl-Shift-8"
+
+[language_servers.basedpyright]
+enabled = false
+
+[language_servers.pylsp]
+enable_flake8 = false
+enable_mypy = false
+enable_pydocstyle = false
+enable_pyflakes = false
+enable_pylint = false
+enable_ruff = true
+enabled = true
+
+[language_servers.pyrefly]
+enabled = true
+
+[language_servers.ty]
+enabled = false
+
+[mcp]
+presets = []
+
+[mcp.mcpServers]
+
+[package_management]
+manager = "uv"
+
+[runtime]
+auto_instantiate = false
+auto_reload = "autorun"
+default_csv_encoding = "utf-8"
+default_sql_output = "auto"
+on_cell_change = "autorun"
+output_max_bytes = 8000000
+reactive_tests = true
+show_tracebacks = false
+std_stream_max_bytes = 1000000
+watcher_on_save = "lazy"
+
+[save]
+autosave = "off"
+autosave_delay = 1000
+format_on_save = true
+
+[server]
+browser = "default"
+follow_symlink = false
+
+[snippets]
+custom_paths = []
+include_default_snippets = true

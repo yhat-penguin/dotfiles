@@ -1,0 +1,13 @@
+# Global ruff defaults; link with: ln -sfn ~/.config/marimo/ruff.toml ~/.config/ruff/ruff.toml
+# ruff only falls back to this file when a project has no ruff.toml,
+# .ruff.toml or [tool.ruff] of its own, so project settings always win.
+# Matches formatting.line_length in marimo.toml.
+
+line-length = 88
+target-version = "py312"
+
+[lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[format]
+docstring-code-format = true

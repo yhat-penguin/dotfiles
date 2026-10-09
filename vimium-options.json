@@ -1,0 +1,17 @@
+{
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://mail.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://localhost*"
+    }
+  ],
+  "grabBackFocus": true,
+  "keyMappings": "map J nextTab\nmap K previousTab\nmap <c-d> scrollFullPageDown\nmap <c-u> scrollFullPageUp\nunmap f\nmap s LinkHints.activateMode",
+  "newTabDestination": "browserNewTabPage",
+  "scrollStepSize": 200,
+  "settingsVersion": "2.4.2"
+}

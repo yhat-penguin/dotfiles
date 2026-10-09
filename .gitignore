@@ -1,0 +1,17 @@
+# marimo writes cell outputs and session snapshots here - they can contain data
+marimo/.config/marimo/__marimo__/
+
+# marimo runtime state that is not configuration
+marimo/.config/marimo/recents.toml
+marimo/.config/marimo/*.log
+
+# Python / tooling caches
+**/__pycache__/
+**/*.py[cod]
+**/.ruff_cache/
+
+# macOS files
+**/.DS_Store
+
+# tmux plugins are cloned by tpm, not tracked here
+tmux/.config/tmux/plugins/
