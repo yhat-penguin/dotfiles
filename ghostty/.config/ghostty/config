@@ -1,0 +1,7 @@
+font-family = "FiraCode Nerd Font Retina"
+font-size = 16
+macos-option-as-alt = true
+background-opacity = 0.92
+background-blur = true
+window-padding-color = extend
+window-padding-y = 0,0
