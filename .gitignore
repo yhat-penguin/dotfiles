@@ -15,3 +15,6 @@ marimo/.config/marimo/*.log
 
 # tmux plugins are cloned by tpm, not tracked here
 tmux/.config/tmux/plugins/
+
+# opencode keys
+opencode/.config/opencode/service.json
