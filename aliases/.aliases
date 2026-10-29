@@ -1,0 +1,2 @@
+alias fcd='cd $(find . -type d | fzf)'
+alias loc='git ls-files | xargs wc -l'
