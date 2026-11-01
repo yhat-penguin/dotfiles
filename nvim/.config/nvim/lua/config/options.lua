@@ -5,7 +5,8 @@
 vim.g.autoformat = false
 
 vim.g.snacks_animate = false
-
+vim.opt.fillchars = { eob = "~" }
+vim.opt.statuscolumn = ""
 vim.g.lazyvim_python_lsp = "pyrefly"
 vim.g.lazyvim_python_ruff = "ruff"
 vim.o.mouse = ""
