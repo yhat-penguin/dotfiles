@@ -6,18 +6,21 @@
   },
   "session": {
     "sidebar": "hide",
-    "verbosity": "low"
+    "verbosity": "medium",
+    "grouping": "none",
+    "new_location": "launch"
   },
   "scroll": {
     "acceleration": false
   },
   "attention": {
     "notifications": true,
-    "sound": true
+    "sound": true,
+    "volume": 0.6
   },
   "terminal": {
     "copy": "select",
-    "title": false
+    "title": true
   },
   "diffs": {
     "view": "auto"
