@@ -12,7 +12,7 @@ displayed_models = []
 activate_on_typing = true
 auto_close_pairs = false
 copilot = false
-signature_hint_on_typing = false
+signature_hint_on_typing = true
 
 [diagnostics]
 enabled = true
@@ -37,12 +37,8 @@ destructive_delete = true
 preset = "vim"
 
 [keymap.overrides]
-# "cell.addColumnBreakpoint" = "Ctrl-Shift-3"
 "cell.aiCompletion" = "Ctrl-Shift-y"
-# "cell.cellActions" = "Alt-p"
 "cell.complete" = "Ctrl-Space"
-# "cell.copyLineDown" = "Alt-Shift-ArrowDown"
-# "cell.copyLineUp" = "Alt-Shift-ArrowUp"
 "cell.createAbove" = "Ctrl-Alt-Shift-o"
 "cell.createBelow" = "Ctrl-Alt-o"
 "cell.delete" = "Ctrl-Alt-Shift-d"
@@ -51,22 +47,18 @@ preset = "vim"
 "cell.focusUp" = "Ctrl-k"
 "cell.fold" = "Ctrl-Shift-["
 "cell.foldAll" = "Ctrl-Alt-["
-# "cell.format" = "Alt-Shift-f"
 "cell.goToDefinition" = "F12"
 "cell.hideCode" = "Ctrl-Alt-h"
 "cell.moveDown" = "Ctrl-Alt-j"
-# "cell.moveLeft" = "Alt-h"
-# "cell.moveRight" = "Alt-l"
 "cell.moveUp" = "Ctrl-Alt-k"
 "cell.redo" = "Ctrl-r"
 "cell.renameSymbol" = "F2"
-"cell.run" = "Ctrl-Enter"
-"cell.runAndNewAbove" = "Ctrl-Shift-Enter"
-"cell.runAndNewBelow" = "Shift-Enter"
+"cell.run" = "Shift-Enter"
+"cell.runAndNewBelow" = "Ctrl-Shift-Enter"
 "cell.selectNextOccurrence" = "Alt-d"
 "cell.sendToBottom" = "Ctrl-Shift-2"
 "cell.sendToTop" = "Ctrl-Shift-1"
-"cell.signatureHelp" = "Ctrl-Shift-k"
+"cell.signatureHelp" = "Shift-k"
 "cell.splitCell" = "Ctrl-Shift-\""
 "cell.toggleBlockComment" = "Alt-Shift-a"
 "cell.toggleComment" = "Alt-/"
